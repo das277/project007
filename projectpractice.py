@@ -1,22 +1,4 @@
-"""import os 
-path = input("Enter your path:")
-newname = input("enter the new name you want:")
-converstion = os.listdir(path)
-print("Old file names", converstion)
-ignore = ["harry"]
-count = 1 
-for file in converstion:
-    if file not in ignore:
-        extension = os.path.splitext(file)[1]
-        nayanaam = newname + str(count) + extension
-        os.rename(path + "/" + file, path + "/" + nayanaam)
-        count += 1
-
-converstion = os.listdir(path)
-print("Newfile name:",converstion)"""
-
-# project by chatgpt
-
+# Project for file renaming 
 import os
 
 path = input("Enter your folder path: ")
